@@ -1,0 +1,15 @@
+.cta {
+	color: $pink !important;
+	display: inline-block !important;
+	text-decoration: none !important;
+
+	a {
+		color: $pink !important;
+	}
+}
+
+// cta button
+.cta1 {
+	@extend .btn;
+	@extend .btn-outline-primary;
+}

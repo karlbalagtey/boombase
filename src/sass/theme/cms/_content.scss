@@ -1,0 +1,76 @@
+// CMS Specific
+.content {
+	@extend .text-bodycopy;
+
+	// TinyMCE Heading
+	h2 {
+		@extend .text-medium-font;
+		margin: 20px 0;
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	// Subheading
+	h3 {
+		@extend .text-medium-font;
+		margin: 20px 0;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.cta {
+		display: inline-block !important;
+		color: $pink;
+	}
+
+	a {
+		color: $pink;
+	}
+	
+	p, p span {
+
+		a {
+			display: inline-block;
+			color: $pink;
+		}
+	}
+
+	ul, ol {
+		margin: 0;
+		margin-bottom: 1rem;
+		padding: 0 20px;
+
+		li {
+
+
+			a {
+				display: inline-block;
+			}
+		}
+	}
+
+	blockquote {
+		@extend .text-light-font;
+		color: $pink;
+		font-size: 20px;
+		line-height: 30px;
+		border-left: 3px solid $pink;
+		padding-left: 15px;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+    // makes the video content responsive
+    iframe {
+        max-width: 100%;
+        width: 100%;
+        border: 0;
+        height: 500px;
+    }
+
+    hr {
+    	border-top: 1px solid $pink;
+    }
+}
