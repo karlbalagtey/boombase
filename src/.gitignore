@@ -1,0 +1,10 @@
+._*
+.DS_*
+.journal*
+.pear2registry
+.configsnapshots/*
+nbproject/
+vendor/
+node_modules/
+bower_components/
+.netbeans.xml
