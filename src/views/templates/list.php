@@ -9,20 +9,24 @@
 	</div>
 </section>
 
-<section class="container">
-	<div class="row">
-        <?php $childrens = $getPages(['parent' => $page]); ?>
+<?php $childrens = $getPages(['parent' => $page]); ?>
+<?php if (count($childrens)>0): ?>
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <section class="card-columns">
+                    <?php foreach ($childrens as $child): ?>
+                        <div class="card">
+                            <?= $view('inc.list-card',['card' => $child]) ?>
 
-        <?php if (count($childrens)>0): ?>
-            <?php foreach ($childrens as $child): ?>
-                <div class="col-12 col-md-6 mb-2">
-                    <?= $view('inc.list-card',['card' => $child]) ?>
+                            <p class="text-standfirst mt-1 ml-2"><?= $child->getTitle() ?></p>
+                        </div>
+                    <?php endforeach ?>
+                </section>
+            </div>
+        </div>
+    </section>
+<?php endif ?>
 
-                    <p class="text-standfirst mt-1 ml-2"><?= $child->getTitle() ?></p>
-                </div>
-            <?php endforeach ?>
-        <?php endif ?>
-	</div>
-</section>
 
 <?= $view('inc.footer') ?>
