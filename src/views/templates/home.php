@@ -1,8 +1,8 @@
 <?= $view('inc.header') ?>
 
-<section class="bg-secondary py-7">
-	<section class="container">
-		<div class="row">
+<section class="bg-secondary">
+	<section class="container py-5">
+		<div class="row py-4">
 			<div class="col text-dark"> 
 				<h1 id="b-page-title"><?= $page->getTitle() ?></h1>
 

@@ -1,10 +1,10 @@
-<a href="<?= $card->url() ?>" class="p-0 d-block">
+<a href="<?= $card->url() ?>" class="list-card">
     <?php if($card->hasFeatureImage()): ?>
         <img class="mw-100 w-100" src="<?= $assetURL(['asset' => $card->getFeatureImageId(), 'width' => 640, 'height' => 500, 'action' => 'crop']) ?>" alt="Image of <?= $card->getTitle() ?>">
     <?php else: ?>
-        <div class="list-card-noimage bg-light">
-            <span class="p-2 bg-primary h1 rounded 
-            ">Boombase</span>
+        <div class="list-card-noimage bg-secondary d-flex justify-content-center align-items-center">
+            <p class="h1 p-2 
+            ">Boombase</p>
         </div>
     <?php endif ?>
 

@@ -1,6 +1,6 @@
 <?= $view('inc.header') ?>
 
-<section class="container mt-8">
+<section class="container py-5">
 	<div class="row py-4">
 		<div class="col-12 col-md-6">
             <h1 id="b-page-title"><?= $page->getTitle() ?></h1>
@@ -16,10 +16,8 @@
             <div class="col">
                 <section class="card-columns">
                     <?php foreach ($childrens as $child): ?>
-                        <div class="card">
+                        <div class="card border-0">
                             <?= $view('inc.list-card',['card' => $child]) ?>
-
-                            <p class="text-standfirst mt-1 ml-2"><?= $child->getTitle() ?></p>
                         </div>
                     <?php endforeach ?>
                 </section>

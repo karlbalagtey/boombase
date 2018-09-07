@@ -10127,6 +10127,21 @@ input[type="button"].btn-block {
   line-height: inherit !important;
 }
 
+.list-card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-card-noimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .footer-social-link {
   color: #fff;
 }
