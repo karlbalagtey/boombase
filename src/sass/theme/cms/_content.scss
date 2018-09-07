@@ -4,7 +4,7 @@
 
 	// TinyMCE Heading
 	h2 {
-		@extend .text-medium-font;
+		@extend .text-bold-font;
 		margin: 20px 0;
 		font-size: 30px;
 		line-height: 35px;
@@ -12,7 +12,7 @@
 
 	// Subheading
 	h3 {
-		@extend .text-medium-font;
+		@extend .text-bold-font;
 		margin: 20px 0;
 		font-size: 20px;
 		line-height: 30px;

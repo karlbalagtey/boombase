@@ -21,7 +21,7 @@ mix.autoload({
 });
 
 mix.js('src/js/app.js', 'public')
-    .extract(['jquery', 'popper.js', 'video.js', 'vanilla-lazyload', 'lightgallery', 'lg-video'])
+    .extract(['jquery', 'popper.js', 'lightgallery'])
     .sass('src/sass/main.scss', 'public/app.css')
     .sourceMaps()
     .browserSync({

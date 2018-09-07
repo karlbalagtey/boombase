@@ -1,0 +1,7 @@
+._*
+.DS_*
+.journal*
+.pear2registry
+.configsnapshots/*
+node_modules/
+

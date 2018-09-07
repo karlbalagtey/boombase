@@ -1,0 +1,14 @@
+@function calculateRem($size) {
+    $remSize: $size / 16;
+    @return #{$remSize}rem;
+}
+
+@mixin font-size($size) {
+  font-size: #{$size}px;
+  font-size: calculateRem($size);
+}
+
+@mixin max-width() {
+	max-width: $max-width;
+	margin: 0 auto;
+}

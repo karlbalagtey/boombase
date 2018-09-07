@@ -1,0 +1,47 @@
+.text-title {
+	@include font-size(40);
+	line-height: 45px;
+}
+
+.text-standfirst,
+.standfirst {
+	@include font-size(32);
+	line-height: 45px;
+}
+
+.text-bodycopy,
+.bodycopy {
+	@include font-size(20);
+	line-height: 30px;
+}
+
+.text-bodycopy-lg {
+	@include font-size(25);
+	line-height: 35px;
+}
+
+.text-card-title {
+	@include font-size(32);
+	line-height: 40px;
+}
+
+.text-card-standfirst {
+	@include font-size(28);
+	line-height: 40px;
+}
+
+.text-regular-font {
+	font-weight: 400;
+}
+
+.text-light-font {
+	font-weight: 300;
+}
+
+.text-medium-font {
+	font-weight: 400;
+}
+
+.text-bold-font {
+	font-weight: 700;
+}
