@@ -1,6 +1,6 @@
 <?php foreach($links as $link): ?>
     <li>
-    	<a href="<?= $link->url() ?>">
+    	<a <?= isset($class) ? "class='$class'" : '' ?> href="<?= $link->url() ?>">
 			<?= $link->getText() ?>
 		</a>
     </li>

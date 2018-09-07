@@ -1,7 +1,12 @@
 <?= $view('inc.header') ?>
 
-<section id="fullpage">
-
+<section class="container">
+	<div>
+		<h1 id="b-page-title"><?= $page->getTitle() ?></h1>
+		<div>
+			<?= $chunk('text', 'standfirst') ?>
+		</div>
+	</div>
 </section>
 
 <?= $view('inc.footer') ?>

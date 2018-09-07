@@ -39,5 +39,7 @@
     </div>
     
     <header class="header">
-        <?= $view('inc.navbar') ?>
+        <div class="container">
+            <?= $view('inc.navbar') ?>
+        </div>
     </header>
