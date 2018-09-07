@@ -4,8 +4,8 @@
 }
 
 @mixin font-size($size) {
-  font-size: #{$size}px;
-  font-size: calculateRem($size);
+  	font-size: #{$size}px;
+  	font-size: calculateRem($size);
 }
 
 @mixin max-width() {

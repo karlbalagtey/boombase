@@ -68,9 +68,9 @@ section {
 
 body {
   margin: 0;
-  font-family: "NeueHaasGroteskDisp W01", "NHaasGroteskDSW01-35XLt";
+  font-family: "Source Sans Pro";
   font-size: 1.25rem;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.5;
   color: #292527;
   text-align: left;
@@ -133,7 +133,7 @@ ul ol {
 }
 
 dt {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 dd {
@@ -5955,15 +5955,15 @@ template {
 }
 
 .font-weight-light {
-  font-weight: 200 !important;
+  font-weight: 300 !important;
 }
 
 .font-weight-normal {
-  font-weight: 200 !important;
+  font-weight: 400 !important;
 }
 
 .font-weight-bold {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 
 .font-italic {
@@ -7910,7 +7910,7 @@ hr {
 small,
 .small {
   font-size: 80%;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 mark,
@@ -8507,7 +8507,7 @@ textarea.form-control {
 .btn,
 .cta1 {
   display: inline-block;
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -9462,7 +9462,7 @@ fieldset:disabled a.cta1 {
 }
 
 .btn-link {
-  font-weight: 200;
+  font-weight: 400;
   color: #292527;
   background-color: transparent;
 }
@@ -9941,7 +9941,7 @@ input[type="button"].btn-block {
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
-  font-weight: 200;
+  font-weight: 400;
   color: #292527;
   text-align: inherit;
   white-space: nowrap;
