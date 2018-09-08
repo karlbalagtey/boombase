@@ -1,12 +1,13 @@
 # Boombase
-A starter boilerplate for developing BoomCMS themes
+A starter boilerplate for developing BoomCMS themes.
 
 ## Features
-- Bootstrap 4.1.x
-- Laravel Mix
-- Fontawesome 5.3.1
-- ES6 Javascript Modules
 - Starter templates
+- ES6 Javascript Modules
+- BrowserSync
+- Bootstrap 4.1.x
+- Laravel Mix / Webpack
+- Fontawesome 5.3.1
 
 ## Instructions:
 - Clone repository in themes directory
