@@ -23,7 +23,7 @@
 
 <section class="container py-7">
 	<div class="row">
-		<div class="col">
+		<div class="col-12 col-md-8">
 			<?= $chunk('text', 'bodycopy') ?>
 		</div>
 	</div>

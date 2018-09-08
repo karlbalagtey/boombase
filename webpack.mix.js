@@ -25,7 +25,7 @@ mix.js('src/js/app.js', 'public')
     .sass('src/sass/main.scss', 'public/app.css')
     .sourceMaps()
     .browserSync({
-        proxy: 'nc.test',
+        proxy: 'codingpits.test',
         files: [
             'src/views/**/*.php',
             'public/app.css',
