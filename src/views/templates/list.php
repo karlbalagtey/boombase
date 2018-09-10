@@ -11,7 +11,7 @@
 
 <?php $childrens = $getPages(['parent' => $page]); ?>
 <?php if (count($childrens)>0): ?>
-    <section class="container py-5">
+    <section class="container pb-5">
         <div class="row">
             <div class="col">
                 <section class="card-columns">

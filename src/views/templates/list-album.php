@@ -9,17 +9,12 @@
 	</div>
 </section>
 
-<?php $childrens = $getPages(['parent' => $page]); ?>
-<?php if (count($childrens)>0): ?>
+<?php if (Editor::isEnabled() || $chunk('library', 'library')->hasContent()): ?>
     <section class="container py-5">
         <div class="row">
             <div class="col">
-                <section class="card-columns">
-                    <?php foreach ($childrens as $child): ?>
-                        <div class="card border-0">
-                            <?= $view('inc.list-card',['card' => $child]) ?>
-                        </div>
-                    <?php endforeach ?>
+                <section id="albumgallery" class="card-columns">
+                    <?= $chunk('library', 'library')->template('album-images')->setPlaceHolderText('Insert album asset library') ?>
                 </section>
             </div>
         </div>

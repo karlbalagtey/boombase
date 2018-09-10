@@ -1,6 +1,6 @@
 <a href="<?= $card->url() ?>" class="list-card">
     <?php if($card->hasFeatureImage()): ?>
-        <img class="mw-100 w-100" src="<?= $assetURL(['asset' => $card->getFeatureImageId(), 'width' => 640, 'height' => 500, 'action' => 'crop']) ?>" alt="Image of <?= $card->getTitle() ?>">
+        <img class="mw-100" src="<?= $assetURL(['asset' => $card->getFeatureImageId(), 'width' => 840, 'action' => 'view']) ?>" alt="Image of <?= $card->getTitle() ?>">
     <?php else: ?>
         <div class="list-card-noimage bg-secondary d-flex justify-content-center align-items-center">
             <p class="h1 p-2 
