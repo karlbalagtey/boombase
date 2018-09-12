@@ -1,8 +1,8 @@
-	    <footer class="footer py-5 bg-dark text-white h-100">
+	    <footer class="footer py-5 bg-success text-white h-100">
 	    	<section class="container">
 		    	<div class="row">
 		    		<div class="col-12 col-md-6">
-		    			<p>Boombase Theme<br> </p>
+		    			<p>The Coding Pits<br> </p>
 
 		    			<ul class="footer-links p-0 list-unstyled">
 		    				<?php $home = ($page->isRoot()) ? $page : Page::findByUri(''); ?>
@@ -20,7 +20,6 @@
 							© Boombase 2018 <br>
 						</div>
 
-		    			<a class="text-white" href="https://karl.balagtey.com/">By: Karl Mark Balagtey</a>
 		    			<p>Built with <a class="text-white" href="https://github.com/karlbalagtey/boombase">Boombase</a></p>
 		    		</div>
 		    	</div>

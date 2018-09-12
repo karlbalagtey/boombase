@@ -1,12 +1,22 @@
 .list-card {
 	position: relative;
 	display: flex;
+
+	&:hover {
+		.list-card-content {
+			opacity: 1;
+		}
+	}
 }
 
-.list-card-noimage {
+.list-card-content {
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background: rgba(119, 119, 119, 0.8);
+	opacity: 0;
+	transition: all .4s;
 }
