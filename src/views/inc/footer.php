@@ -2,7 +2,7 @@
 	    	<section class="container">
 		    	<div class="row">
 		    		<div class="col-12 col-md-6">
-		    			<p>The Coding Pits<br> </p>
+		    			<p><?= $chunk('text', 'footer-text-1') ?><br> </p>
 
 		    			<ul class="footer-links p-0 list-unstyled">
 		    				<?php $home = ($page->isRoot()) ? $page : Page::findByUri(''); ?>
@@ -17,10 +17,10 @@
 		    		
 		    		<div class="col-12 col-md-6 d-flex flex-column align-items-end">
 		    			<div class="mb-auto">
-							© Boombase 2018 <br>
+							© <?= $chunk('text', 'footer-text-2') ?> <br>
 						</div>
 
-		    			<p>Built with <a class="text-white" href="https://github.com/karlbalagtey/boombase">Boombase</a></p>
+		    			<p><?= $chunk('text', 'footer-text-3') ?> <a class="text-white" href="https://github.com/karlbalagtey/boombase">Boombase</a></p>
 		    		</div>
 		    	</div>
 			</section>
