@@ -1,6 +1,10 @@
 {
+    "/public/vendor.js": "/public/vendor.js",
+    "/public/vendor.js.map": "/public/vendor.js.map",
     "/public/app.js": "/public/app.js",
     "/public/app.css": "/public/app.css",
-    "/public/vendor.js": "/public/vendor.js",
-    "/public/manifest.js": "/public/manifest.js"
+    "/public/app.js.map": "/public/app.js.map",
+    "/public/app.css.map": "/public/app.css.map",
+    "/public/manifest.js": "/public/manifest.js",
+    "/public/manifest.js.map": "/public/manifest.js.map"
 }
