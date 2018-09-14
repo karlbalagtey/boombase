@@ -17,7 +17,7 @@
 		    		
 		    		<div class="col-12 col-md-6 d-flex flex-column align-items-end">
 		    			<div class="mb-auto">
-							© <?= $chunk('text', 'footer-text-2') ?> <br>
+							<?= $chunk('text', 'footer-text-2') ?> <br>
 						</div>
 
 		    			<p><?= $chunk('text', 'footer-text-3') ?> <a class="text-white" href="https://github.com/karlbalagtey/boombase">Boombase</a></p>
