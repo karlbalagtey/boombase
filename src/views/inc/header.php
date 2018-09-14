@@ -45,11 +45,6 @@
 </head>
 
 <body class="<?= $page->getTemplate()->getFilename() ?>">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M4BHNG"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <div id="cookie-banner" class="bg-grey d-none">
         <div class="container p-1 d-flex justify-content-center align-items-center">
             <p class="text-small m-0">We use cookies to ensure that we give you the best experience on our website. If you continue, we will assume that you agree to our <a class="text-pink" href="/cookie-policy">cookie policy.</a></p>
