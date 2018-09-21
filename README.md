@@ -1,4 +1,4 @@
-# Boombase
+# Boom-base-theme
 A starter boilerplate for developing BoomCMS themes.
 
 ## Features
